@@ -8,4 +8,4 @@ build: false  # Not a C# project, build stuff at the test step instead.
 
 test_script:  
   - C:\Python35\python -m devpi use https://devpi.net/nicoddemus/dev
-  - C:\Python35\python -m devpi test pytest-xdist==1.14
+  - C:\Python35\python -m devpi test pytest-xdist==1.14.1.dev1

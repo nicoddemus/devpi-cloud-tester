@@ -7,4 +7,4 @@ install: "pip install -U devpi"
 
 script: 
     - devpi use https://devpi.net/nicoddemus/dev
-    - devpi test pytest-xdist==1.14
+    - devpi test pytest-xdist==1.14.1.dev1
