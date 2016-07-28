@@ -12,5 +12,6 @@ install:
 build: false  # Not a C# project, build stuff at the test step instead.
 
 test_script:  
-  - C:\Python35\python -m devpi use https://devpi.net/ronny/dev
-  - C:\Python35\python -m devpi test pytest==2.9.2
+  - C:\Python35\python -m devpi use https://devpi.net/nicoddemus/dev
+  - C:\Python35\python -m devpi test pytest-qt==2.0.0
+
