@@ -6,4 +6,9 @@ Repository used to test devpi packages from devpi.net using Travis and AppVeyor.
 
 [![Build Status](https://travis-ci.org/nicoddemus/devpi-cloud-tester.svg?branch=master)](https://travis-ci.org/nicoddemus/devpi-cloud-tester)
 
-**Note**: this repository was written more as a proof of concept so a lot of options are hard-coded. If you are interested in using it, let me know so I can somehow make it more generic to use.
+## Usage ##
+
+1. Fork this repository and enable Travis and AppVeyor for your fork.
+2. Edit ``.travis.yml`` and ``appveyor.yml`` with your ``devpi`` URL and package to test.
+3. Push. 
+4. Profit.
