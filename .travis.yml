@@ -7,4 +7,4 @@ install: "pip install -U devpi"
 
 script: 
     - devpi use https://devpi.net/obestwalter/dev
-    - devpi test tox==2.6.0
+    - devpi test tox==2.6.0.dev1
