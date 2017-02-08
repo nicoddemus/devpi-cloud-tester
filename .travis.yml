@@ -1,10 +1,10 @@
 sudo: false
 language: python
 python:
-    - '3.6'
+    - '3.5'
 # command to install dependencies
 install: "pip install -U devpi"
 
 script: 
-    - devpi use https://devpi.net/obestwalter/dev
-    - devpi test tox==2.6.0.dev1
+    - devpi use https://devpi.net/nicoddemus/dev
+    - devpi test py==1.4.33
