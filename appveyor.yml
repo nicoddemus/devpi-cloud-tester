@@ -13,5 +13,5 @@ build: false  # Not a C# project, build stuff at the test step instead.
 
 test_script:  
   - C:\Python36\python -m devpi use https://devpi.net/nicoddemus/dev
-  - C:\Python36\python -m devpi test py==1.4.33
+  - C:\Python36\python -m devpi test pytest==3.0.7
 
