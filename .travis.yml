@@ -5,6 +5,6 @@ python:
 # command to install dependencies
 install: "pip install -U devpi"
 
-script: 
+script:
     - devpi use https://devpi.net/nicoddemus/dev
-    - devpi test py==1.4.33 --tox-args "-- --color=yes"
+    - devpi test pytest==3.1.0 --tox-args "-- --color=yes"
